@@ -28,7 +28,7 @@ contract EvenNumber {
 ```
 
 In this example, the `IS_EVEN` zkVM program verifies that the number, `x`, is even.
-By verifying a receipt with the [image ID][term-image-id] of that program, it is guaranteed that the stored number will always be even.
+By verifying a receipt with the [image-ID][image-id] of that program, it is guaranteed that the stored number will always be even.
 RISC Zero's zkVM and the `IS_EVEN` program guarantee that it's computationally impossible to produce a verifying receipt for an odd number.
 
 ## Verifier Implementations
