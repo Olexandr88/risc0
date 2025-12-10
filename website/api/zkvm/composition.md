@@ -21,7 +21,7 @@ Assumptions will be automatically resolved when you call [`Prover::prove_with_op
 
 Under the hood, proof composition works by _adding assumptions_ to the [ReceiptClaim] struct, and then _resolving_ those assumptions.
 
-![ReceiptClaim with no assumptions][composition-no-assumptions]
+![ReceiptClaim with no assumptions](images/composition-no-assumptions.png)
 
 ### Adding Assumptions
 
